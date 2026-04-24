@@ -58,7 +58,7 @@ ros2 topic echo /station_pose
 ros2 run image_tools showimage --ros-args -r image:=/debug_image
 
 
-2. 实时相机检测（未测试）
+2. 实时相机检测
 
 启动相机和检测系统
 ros2 launch station_detector real_camera.launch.py
